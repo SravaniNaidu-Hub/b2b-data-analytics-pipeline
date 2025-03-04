@@ -1,6 +1,6 @@
 # Vanilla Steel - Data Assessment Submission
 
-## Submitted By: [Majji Sravani]
+## Submitted By: Majji Sravani
 ## Submitted To: Vanilla Steel
 
 ## Overview
@@ -59,10 +59,10 @@ Vanilla_Steel/
 - Use Looker Studio for visualization if applicable.
 
 ## Submission Details
-- **Submitted By:** [Majji Sravani]
+- **Submitted By:** Majji Sravani
 - **Submitted To:** Vanilla Steel
-- **Submission Date:** [05.03.2025]
-- **Contact:** [sravanimajjinaidu@gmail.com]
+- **Submission Date:** 05.03.2025
+- **Contact:** sravanimajjinaidu@gmail.com
 
 ---
 ### **Thank You!** I appreciate the opportunity to work on this assessment and look forward to your feedback.
