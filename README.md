@@ -1,69 +1,46 @@
-# Vanilla Steel - Data Assessment Submission
+# B2B Data Analytics Pipeline  
 
-## Submitted By: Majji Sravani
-## Submitted To: Vanilla Steel
+## Project Overview  
+This project was part of a data analytics assessment, focusing on cleaning, transforming, and analyzing supplier and buyer data for a B2B marketplace. The goal was to build a data pipeline that integrates supplier and buyer data, generate insights through dashboards, and implement a recommendation system to match supplier materials with buyer preferences.  
 
-## Overview
-This repository contains my submission for the Vanilla Steel data assessment. It includes data processing notebooks, datasets, reports, and video walkthroughs for different tasks, focusing on data cleaning, analysis, and buyer-supplier recommendations.
+## Key Features  
+- **Data Cleaning & Preparation**: Consolidated and cleaned raw supplier datasets to create a structured inventory dataset.  
+- **Analysis & Insights**: Designed dashboards in Looker Studio to analyze account manager performance and revenue reporting.  
+- **Recommendation System**: Developed a data pipeline to match supplier materials with buyer preferences based on attributes like grade, finish, thickness, and weight.  
 
-## Directory Structure
-```
-Vanilla_Steel/
-├── Software/
-│   ├── task_1/
-│   │   ├── DMGS_DIP_40319_Task_1.ipynb   # Jupyter Notebook for data cleaning
-│   │   ├── inventory_dataset.csv         # Cleaned supplier dataset
-│   │   ├── Task 1 Software video.mp4     # Video walkthrough
-│   │
-│   ├── task_2/
-│   │   ├── DMGS_DIP_40319_Task_2.pdf     # Documentation for analysis
-│   │   ├── task 2 software work.mp4      # Video walkthrough
-│   │
-│   ├── task_3/
-│       ├── DMGS_DIP_40319_Task_3.ipynb   # Jupyter Notebook for recommendations
-│       ├── recommendation_table.csv      # Generated recommendation dataset
-│       ├── Task 3 Software video.mp4     # Video walkthrough
-```
+## Technologies Used  
+- **Python** (for data processing and cleaning)  
+- **SQL** (for data transformation and querying)  
+- **Looker Studio** (for data visualization)  
+- **Pandas & NumPy** (for data manipulation)  
 
-## Task Details
-### Task 1: Data Cleaning & Preparation
-- **File:** `DMGS_DIP_40319_Task_1.ipynb`
-- **Dataset:** `inventory_dataset.csv`
-- **Description:** This task involves cleaning and merging supplier datasets into a structured format.
+## Project Structure  
+├── data/
+│ ├── supplier_data_1.xlsx
+│ ├── supplier_data_2.xlsx
+│ ├── buyer_preferences.xlsx
+│ ├── deals.csv
+├── notebooks/
+│ ├── data_cleaning.ipynb
+│ ├── recommendation_system.ipynb
+├── scripts/
+│ ├── data_pipeline.py
+│ ├── recommendation_engine.py
+├── dashboard/
+│ ├── looker_studio_link.txt
+├── README.md
 
-### Task 2: Analysis & Insights
-- **File:** `DMGS_DIP_40319_Task_2.pdf`
-- **Tools Used:** SQL / Looker Studio 
-- **Description:** This task involves analyzing deals and supplier performance.
 
-### Task 3: Buyer-Supplier Recommendation System
-- **File:** `DMGS_DIP_40319_Task_3.ipynb`
-- **Dataset:** `recommendation_table.csv`
-- **Description:** This task matches supplier materials with buyer preferences to generate a recommendation table.
+## How to Run  
+1. Clone the repository  
+2. pip install -r requirements.txt
+3. python scripts/data_pipeline.py
+4. python scripts/recommendation_engine.py
 
-## Usage Instructions
-1. **Clone the repository:**
-   ```bash
-   git clone <repo_url>
-   cd <repo_name>
-   ```
-2. **Run Notebooks:**
-   - Open Jupyter Notebook and execute `DMGS_DIP_40319_Task_1.ipynb` and `DMGS_DIP_40319_Task_3.ipynb`.
+View the analysis in Looker Studio(https://lookerstudio.google.com/reporting/8e0fd083-5e34-4cca-bbf8-23fca182000e).
 
-3. **View Reports & Videos:**
-   - Refer to `DMGS_DIP_40319_Task_2.pdf` for insights.
-   - Watch video walkthroughs (`.mp4` files) for guidance.
+**Results**
 
-## Notes
-- Ensure that all dependencies are installed before running the notebooks.
-- Use Looker Studio for visualization if applicable.
-
-## Submission Details
-- **Submitted By:** Majji Sravani
-- **Submitted To:** Vanilla Steel
-- **Submission Date:** 05.03.2025
-- **Contact:** sravanimajjinaidu@gmail.com
-
----
-### **Thank You!** I appreciate the opportunity to work on this assessment and look forward to your feedback.
-
+The cleaned dataset is structured for easy analysis.
+The Looker Studio dashboard provides insights on account manager performance and revenue reporting.
+The recommendation system outputs matched materials for each buyer.
